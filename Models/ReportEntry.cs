@@ -8,11 +8,9 @@ namespace Access_control_system.Models
 {
     public class ReportEntry
     {
-        public Event privateevent { get; set; }
-        public Door door { get; set; }
-        public Person person { get; set; }
+        List<Event> eventList { get; set; }
 
-       
+
     }
     }
 
