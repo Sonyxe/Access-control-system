@@ -6,8 +6,7 @@ namespace AccessControl_System.DataAccess
 {
     public class PersonRepo
     {
-        private List<Person> persons;
-
+        private List<Person> persons { get; }
         public PersonRepo()
         {
             Person person1 = new Person(1, "Person1", DateTime.Now);

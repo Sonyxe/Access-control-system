@@ -1,12 +1,18 @@
-﻿using System;
+﻿using Access_control_system.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AccessControl_System.DataAccess
 {
-   public class DoorRepo
+    public class DoorRepo
     {
+        public DoorRepo()
+        {
+
+
+
+        }
     }
 }
+
+    
+
