@@ -39,7 +39,7 @@ namespace AccessControl_System.DataAccess
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Ivestas skaicius turi buti tarp 1 ir 4 {e.Message}");
+                Console.WriteLine($"Ivestas skaicius turi buti tarp 1 ir 2 {e.Message}");
                 doorId = Convert.ToInt32(Console.ReadLine());
 
 
