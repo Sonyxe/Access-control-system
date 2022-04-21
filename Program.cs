@@ -3,14 +3,12 @@ using System;
 
 namespace Access_control_system
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
 
             for (int i = 0; i < 5; i++)
-
-
             {
                 Console.WriteLine("enter person Id number");
                 int personNumber = Convert.ToInt32(Console.ReadLine());
@@ -19,7 +17,7 @@ namespace Access_control_system
                 int doorNumber = Convert.ToInt32(Console.ReadLine());
 
                 Event events = new Event();
-                Console.WriteLine(events.Check(personNumber, doorNumber));
+                Console.WriteLine(events.Check( personNumber, doorNumber));
 
             }
         }

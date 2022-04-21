@@ -7,26 +7,30 @@ namespace Access_control_system.Models
     public class Event
     {
         public Person Person { get; set; }
-     public DateTime EntryTime { get; set; }
+        public DateTime DateTime { get; set; }
 
-        public Event(Person person, DateTime entryTime) 
+        public Event(Person person, DateTime dateTime)
         {
             Person = person;
-            EntryTime = entryTime;
+            DateTime = dateTime;
         }
 
         public Event()
         {
         }
 
-        public bool Check(int personNm, int doorNm)
+        public bool Check(int personNumber, int doorNumber)
         {
             PersonRepo personRepo = new PersonRepo();
             DoorRepo doorRepo = new DoorRepo();
-            List<int> doorAccessCodes = doorRepo.RetrieveDoorAccessCodes(doorNm);
+            List<int> doorAccessCodes = doorRepo.RetrieveDoorAccessCodes(doorNumber);
 
-            return doorAccessCodes.Contains(personNm);
+            return doorAccessCodes.Contains(personNumber);
+
         }
     }
 }
+        
+ 
+
 

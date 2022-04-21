@@ -32,21 +32,23 @@ namespace AccessControl_System.DataAccess
         }
         public List<int> RetrieveDoorAccessCodes(int doorId)
         {
+
             try
             {
-
-
-                return doorList[doorId].AccessCodesId;
-
+                return doorList[doorId - 1].AccessCodesId;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                Console.WriteLine($"the number entered must be, +{e}");
+                Console.WriteLine($"Ivestas skaicius turi buti tarp 1 ir 4 {e.Message}");
+                doorId = Convert.ToInt32(Console.ReadLine());
+
+
                 return null;
             }
         }
     }
 }
+
 
 
 
