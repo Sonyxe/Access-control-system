@@ -8,13 +8,13 @@ namespace Access_control_system.Models
 {
     public class ReportEntrysDuringPeriod
     {
-        public Person Person { get; set; }
-        public List<int> EntrysTimes { get; set; }
+        public List<Person> Person { get; set; }
+        public List<int> EntryDuringPeriod { get; set; }
 
-        public ReportEntrysDuringPeriod(Person person, List<int> entrysTimes) 
+        public ReportEntrysDuringPeriod(List<Person> person, List<int> entryDuringPeriod)
         {
             Person = person;
-            EntrysTimes = entrysTimes;  
+            EntryDuringPeriod= entryDuringPeriod;
         }
     }
 }

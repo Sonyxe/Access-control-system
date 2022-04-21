@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access control system", "Access control system.csproj", "{545E6148-24C1-4F84-BA1D-5DA86EA2F874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Access control system", "Access control system.csproj", "{545E6148-24C1-4F84-BA1D-5DA86EA2F874}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07E72536-EBC5-4B7F-8D01-6A919BFE548F}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "..\UnitTestProject1\UnitTestProject1.csproj", "{F308EF28-88B3-4237-B3F6-921B67086105}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessControl_System.DataAccess", "..\AccessControl_System.DataAccess\AccessControl_System.DataAccess.csproj", "{AF2A0624-4AA9-4A45-8EEA-1541359F90E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +26,6 @@ Global
 		{F308EF28-88B3-4237-B3F6-921B67086105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F308EF28-88B3-4237-B3F6-921B67086105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F308EF28-88B3-4237-B3F6-921B67086105}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF2A0624-4AA9-4A45-8EEA-1541359F90E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF2A0624-4AA9-4A45-8EEA-1541359F90E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF2A0624-4AA9-4A45-8EEA-1541359F90E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF2A0624-4AA9-4A45-8EEA-1541359F90E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
