@@ -18,5 +18,14 @@ namespace Access_control_system.Models
             Name = name;
             EntryTime = entryTime;
         }
+
+        public object GeneratePersonList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Person()
+        {
+        }
     }
 }
